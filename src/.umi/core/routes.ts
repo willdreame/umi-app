@@ -7,29 +7,41 @@ import { plugin } from './plugin';
 export function getRoutes() {
   const routes = [
   {
-    "path": "/cart",
-    "exact": true,
-    "component": require('@/pages/cart/index.tsx').default
-  },
-  {
     "path": "/",
-    "exact": true,
-    "component": require('@/pages/index.tsx').default
-  },
-  {
-    "path": "/login",
-    "exact": true,
-    "component": require('@/pages/login/index.tsx').default
-  },
-  {
-    "path": "/olist",
-    "exact": true,
-    "component": require('@/pages/olist/index.tsx').default
-  },
-  {
-    "path": "/user",
-    "exact": true,
-    "component": require('@/pages/user/index.tsx').default
+    "component": require('@/layouts/BasicLayout').default,
+    "routes": [
+      {
+        "path": "/",
+        "component": require('@/pages/index').default,
+        "exact": true
+      },
+      {
+        "path": "/login",
+        "component": require('@/pages/login/index').default,
+        "exact": true
+      },
+      {
+        "path": "/",
+        "component": require('@/layouts/SecurityLayout').default,
+        "routes": [
+          {
+            "path": "/cart",
+            "component": require('@/pages/cart/index').default,
+            "exact": true
+          },
+          {
+            "path": "/olist",
+            "component": require('@/pages/olist/index').default,
+            "exact": true
+          },
+          {
+            "path": "/user",
+            "component": require('@/pages/user/index').default,
+            "exact": true
+          }
+        ]
+      }
+    ]
   }
 ];
 
