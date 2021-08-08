@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "376206",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "551962",
+      "name": "箭头",
+      "font_class": "arrow-right",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "700834",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "979217",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "1256462",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "3670113",
+      "name": "我的",
+      "font_class": "tubiaolunkuo-",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "5270853",
+      "name": "待收货-我的",
+      "font_class": "daishouhuo",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "5771114",
+      "name": "首页",
+      "font_class": "home",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "6260215",
+      "name": "分类",
+      "font_class": "fenlei",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "8145817",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "11481177",
+      "name": "待发货",
+      "font_class": "daifahuo",
+      "unicode": "e654",
+      "unicode_decimal": 58964
+    },
+    {
+      "icon_id": "19657499",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "20406446",
+      "name": "订单_订单列表",
+      "font_class": "dingdan_dingdanliebiao",
+      "unicode": "e787",
+      "unicode_decimal": 59271
+    },
+    {
+      "icon_id": "20452241",
+      "name": "card",
+      "font_class": "card",
+      "unicode": "e8f5",
+      "unicode_decimal": 59637
+    }
+  ]
+}
